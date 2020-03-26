@@ -1,5 +1,3 @@
-#!groovy
-
 node('master') {
     stage('Build') {
         echo 'Running Build automation'
